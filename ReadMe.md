@@ -2,6 +2,6 @@
 
 link: https://bubelov.com/blog/snake-kotlin/#engine
 
-## Part 1:
+# Let's get into it!
 
-[(link)](./docs/Part1.md)
+[(Click Me!)](./docs/Welcome.md)
