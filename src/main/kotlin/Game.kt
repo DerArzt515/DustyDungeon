@@ -1,12 +1,7 @@
-import io.GameScene
-import io.Input
-import io.Scene
+import io.*
 import kotlinx.coroutines.*
 import kotlinx.coroutines.swing.Swing
-import java.awt.BorderLayout
-import java.awt.Canvas
-import java.awt.Dimension
-import java.awt.Graphics2D
+import java.awt.*
 import javax.swing.JFrame
 import javax.swing.WindowConstants
 
@@ -75,7 +70,7 @@ object GameFactory {
 fun main() {
     val game = GameFactory.create(
         screenSize = Dimension(660, 660),
-        windowTitle = "Snake"
+        windowTitle = "Dat Game"
     )
 
     val settings = Settings.build()
